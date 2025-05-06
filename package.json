@@ -4,7 +4,9 @@
   "description": "Recursively find and clear node_modules directories to free up disk space",
   "main": "cnr.js",
   "private": false,
-  "access": "public",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "@9vvin/cnr": "./cnr.js"
   },
