@@ -1,109 +1,113 @@
-# CNR (Clear Node_modules Recursively)
+# CNR (Clear `node_modules` Recursively)
 
-재귀적으로 node_modules 디렉토리를 찾아 삭제하는 유틸리티입니다. 디스크 공간을 확보하고 개발 환경을 정리하는 데 유용합니다.
+[![한국어](https://img.shields.io/badge/lang-한국어-blue.svg)](README_ko.md)
 
-## 설치
+![The heaviest object in the universe; node_modules](./the_object_node_modules.png)
+
+A utility that recursively finds and deletes node_modules directories. Useful for reclaiming disk space and cleaning up development environments.
+
+## Installation
 
 ```bash
-# 글로벌 설치
+# Global installation
 npm install -g @9vvin/cnr
 
-# 또는 npx로 실행 (설치 없이)
+# Or run with npx (without installation)
 npx @9vvin/cnr
 ```
 
-## 사용 방법
+## Usage
 
-### 명령줄에서 사용
+### Command Line Usage
 
-다양한 방법으로 사용할 수 있습니다:
+You can use it in various ways:
 
-#### Node.js 스크립트 (cnr.js)
+#### Node.js Script (cnr.js)
 
 ```bash
-# 현재 디렉토리에서 실행
+# Run in current directory
 node cnr.js
 
-# 특정 디렉토리 지정
+# Specify a directory
 node cnr.js /path/to/directory
 ```
 
-#### Bash 쉘 스크립트 (cnr.sh) - macOS/Linux
+#### Bash Shell Script (cnr.sh) - macOS/Linux
 
 ```bash
-# 실행 권한 부여
+# Grant execution permission
 chmod +x cnr.sh
 
-# 현재 디렉토리에서 실행
+# Run in current directory
 ./cnr.sh
 
-# 특정 디렉토리 지정
+# Specify a directory
 ./cnr.sh /path/to/directory
 ```
 
-#### PowerShell 스크립트 (cnr.ps1) - Windows
+#### PowerShell Script (cnr.ps1) - Windows
 
 ```powershell
-# 현재 디렉토리에서 실행
+# Run in current directory
 .\cnr.ps1
 
-# 특정 디렉토리 지정
+# Specify a directory
 .\cnr.ps1 -RootPath C:\path\to\directory
 ```
 
-#### Windows 배치 스크립트 (cnr.cmd)
+#### Windows Batch Script (cnr.cmd)
 
 ```cmd
-# 현재 디렉토리에서 실행
+# Run in current directory
 cnr
 
-# 특정 디렉토리 지정
+# Specify a directory
 cnr C:\path\to\directory
 ```
 
-### npm 패키지로 사용
+### Using as npm Package
 
-패키지를 설치한 후 사용할 수 있습니다:
+You can use it after installing the package:
 
 ```bash
-# 글로벌 설치 후 실행
+# Run after global installation
 npm install -g @9vvin/cnr
 cnr [directory]
 
-# npx로 실행 (설치 없이)
+# Run with npx (without installation)
 npx @9vvin/cnr [directory]
 ```
 
-## 기능
+## Features
 
-- 재귀적으로 node_modules 디렉토리 검색
-- 각 디렉토리의 크기 계산 및 표시
-- 삭제된 디렉토리와 확보된 공간 통계 제공
-- 다양한 플랫폼 지원 (Windows, macOS, Linux)
-- 다양한 스크립트 지원 (Node.js, Bash, PowerShell, Windows 배치)
+- Recursively search for node_modules directories
+- Calculate and display the size of each directory
+- Provide statistics on deleted directories and reclaimed space
+- Support for various platforms (Windows, macOS, Linux)
+- Support for various scripts (Node.js, Bash, PowerShell, Windows Batch)
 
-## 개발
+## Development
 
 ```bash
-# 저장소 클론
+# Clone repository
 git clone https://github.com/im-9vvin/clear-node-modules-recursively.git
 cd clear-node-modules-recursively
 
-# 의존성 설치
+# Install dependencies
 npm install
 
-# 로컬에서 테스트
+# Test locally
 node cnr.js
 ```
 
-## 라이선스
+## License
 
 MIT
 
-## 기여
+## Contributing
 
-이슈 및 풀 리퀘스트는 환영합니다. 큰 변경사항이 있는 경우 먼저 이슈를 열어 논의해주세요.
+Issues and pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## 제작자
+## Author
 
 - [@im-9vvin](https://github.com/im-9vvin)
