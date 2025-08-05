@@ -1,6 +1,6 @@
 # CNR (Clear `node_modules` Recursively)
 
-[en](./README.md) | [ko]./(README_ko.md)
+[en](./README.md) | [ko](./README_ko.md)
 
 ![The heaviest object in the universe; node_modules](./the_object_node_modules.png)
 
