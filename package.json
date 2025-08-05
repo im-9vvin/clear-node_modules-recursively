@@ -1,6 +1,6 @@
 {
   "name": "@9vvin/cnr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursively find and clear node_modules directories to free up disk space",
   "main": "cnr.js",
   "private": false,
