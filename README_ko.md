@@ -1,6 +1,6 @@
 # CNR (Clear `node_modules` Recursively)
 
-[![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
+[en](./README.md) | [ko]./(README_ko.md)
 
 ![The heaviest object in the universe; node_modules](./the_object_node_modules.png)
 
