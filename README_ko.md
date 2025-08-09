@@ -85,6 +85,7 @@ npx @9vvin/cnr [directory]
 - 삭제된 디렉토리와 확보된 공간 통계 제공
 - 다양한 플랫폼 지원 (Windows, macOS, Linux)
 - 다양한 스크립트 지원 (Node.js, Bash, PowerShell, Windows 배치)
+- 코드 커버리지를 포함한 포괄적인 테스트 스위트
 
 ## 개발
 

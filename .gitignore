@@ -34,7 +34,6 @@ Thumbs.db
 dist/
 build/
 coverage/
-.nyc_output/
 
 # 패키지 잠금 파일
 # package-lock.json

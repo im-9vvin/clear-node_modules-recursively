@@ -85,6 +85,7 @@ npx @9vvin/cnr [directory]
 - Provide statistics on deleted directories and reclaimed space
 - Support for various platforms (Windows, macOS, Linux)
 - Support for various scripts (Node.js, Bash, PowerShell, Windows Batch)
+- Comprehensive test suite with code coverage
 
 ## Development
 
